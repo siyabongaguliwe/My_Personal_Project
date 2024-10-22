@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Reminder App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Event Reminder</h1>
+    </header>
+    <main>
+        <section id="event-form">
+            <h2>Add New Event</h2>
+            <form id="new-event-form">
+                <label for="event-title">Event Title:</label>
+                <input type="text" id="event-title" required>
+                <label for="event-date">Event Date:</label>
+                <input type="date" id="event-date" required>
+                <button type="submit">Add Event</button>
+            </form>
+        </section>
+        <section id="event-list">
+            <h2>Upcoming Events</h2>
+            <ul id="events"></ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
